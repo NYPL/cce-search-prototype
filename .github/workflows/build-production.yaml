@@ -42,4 +42,4 @@ jobs:
 
       - name: Force ECS Update
         run: |
-          aws ecs update-service --cluster sfr-cce --service sfr-cce-front --force-new-deployment
+          aws ecs update-service --cluster sfr-cce-front --service sfr-cce-front --force-new-deployment
