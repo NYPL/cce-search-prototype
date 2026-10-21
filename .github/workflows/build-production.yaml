@@ -2,6 +2,8 @@
 # build a container and deploy to ECR
 name: Publish to Production
 on:
+  push:
+    branches: [main]
   release:
     types: [released]
 
